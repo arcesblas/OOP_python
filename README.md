@@ -65,12 +65,23 @@ This handy keyword allows you to access variables, attributes, and methods of a 
  ## Class Attributes
 *  What is a class attribute?    
 A class attribute is a Python variable that belongs to a class rather than a particular object.
-[Source](https://builtin.com/software-engineering-perspectives/python-attributes#:~:text=A%20class%20attribute%20is%20a,.)%20%2C%20of%20the%20class.)
+[Source](https://builtin.com/software-engineering-perspectives/python-attributes#:~:text=A%20class%20attribute%20is%20a,.)
 
 * Describe the differences between class attributes and instance attributes   
 Class attributes are the variables defined directly in the class that are shared by all objects of the class. Instance attributes are attributes or properties attached to an instance of a class. Instance attributes are defined in the constructor.
 [Source](https://www.tutorialsteacher.com/articles/class-attributes-vs-instance-attributes-in-python#:~:text=Class%20attributes%20are%20the%20variables,are%20defined%20in%20the%20constructor.&text=Defined%20directly%20inside%20a%20class.)
 
 ## Encapsulation and Abstraction
+*  Describe the principle of Encapsulation and its importance in Object Oriented Programming.    
+Encapsulation is a way to restrict the direct access to some components of an object, so users cannot access state values for all of the variables of a particular object.
+ [Source](https://www.sumologic.com/glossary/encapsulation/#:~:text=Encapsulation%20is%20a%20way%20to,an%20instantiated%20class%20or%20object.)
 
- 
+* Describe the principle of Abstraction and its importance in Object-Oriented Programming.  
+ Through the process of abstraction, a programmer hides all but the relevant data about an object in order to reduce complexity and increase efficiency.
+ [Source](https://www.techtarget.com/whatis/definition/abstraction#:~:text=In%20object%2Doriented%20programming%2C%20abstraction,reduce%20complexity%20and%20increase%20efficiency.)
+  
+ * Describe what happens during the process of Name Mangling and its main purpose.  
+ In name mangling process any identifier with two leading underscore and one trailing underscore is textually replaced with _classname__identifier where classname is the name of the current class.
+   [Source](https://www.geeksforgeeks.org/name-mangling-in-python/)
+   
+ ## Properties, Getters, and Setters

@@ -1,0 +1,7 @@
+Write three classes for each scenario.
+
+Small Bank: Customer, Employee, BankAccount, SavingsAccount, CreditAccount.
+
+Donut Shop: Donut, Coffee, Employees, PurchaseNumber, Tea, Water.
+
+Videogame Store: Employee, Video game, Console, Accessory, Joystick.

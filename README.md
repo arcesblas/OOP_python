@@ -85,3 +85,27 @@ Encapsulation is a way to restrict the direct access to some components of an ob
    [Source](https://www.geeksforgeeks.org/name-mangling-in-python/)
    
  ## Properties, Getters, and Setters
+* What is a getter?     
+A method that allows you to access an attribute in a given class
+ [Source](https://realpython.com/python-getter-setter/#:~:text=Getter%3A%20A%20method%20that%20allows,an%20attribute%20in%20a%20class)
+*  What is a setter?   
+A method that allows you to set or mutate the value of an attribute in a class.
+ [Source](https://realpython.com/python-getter-setter/#:~:text=Getter%3A%20A%20method%20that%20allows,an%20attribute%20in%20a%20class)
+ 
+*  What is a property in Python?   
+Python's property() is the Pythonic way to avoid formal getter and setter methods in your code. This function allows you to turn class attributes into properties or managed attributes.
+[Source](https://realpython.com/python-property/#:~:text=Python's%20property()%20is%20the,into%20properties%20or%20managed%20attributes.)
+
+## Aliasing, Mutation, and Cloning   
+*  What is aliasing?   
+In Python, aliasing happens whenever one variable's value is assigned to another variable, because variables are just names that store references to values.
+[Source](https://v4.software-carpentry.org/python/alias.html#:~:text=In%20Python%2C%20aliasing%20happens%20whenever,that%20store%20references%20to%20values.)
+
+* Define mutation   
+In simple words, mutable means ‘able to be changed’ and immutable means ‘constant’.
+[Source](https://book.pythontips.com/en/latest/mutation.html)
+
+*  What is cloning?      
+If we want to modify a list and also keep a copy of the original, we need to be able to make a copy of the list itself, not just the reference. This process is sometimes called cloning, to avoid the ambiguity of the word copy.
+[Source](http://pages.di.unipi.it/marino/python/Lists/Aliasing.html#:~:text=If%20we%20want%20to%20modify,to%20use%20the%20slice%20operator.)
+
